@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Module 7 - DOM Manipulation</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="#">
+    </head>
+    <body>
+        <main id="main">
+            <section id="hero">
+                <h1>🟦 Module 7 - DOM Manipulation: Lesson 04. DOM Selectors - Single Element</h1>
+            </section>
+        </main>
+        <section class="wrap" id="app">
+            <div class="toolbar" data-ui="toolbar">
+                <h1 data-ui="title">Devices</h1>
+                <span class="badge ok" data-ui="status">Online</span>
+                <!-- Uncomment to test fail-fast: <span data-ui="remove-me"></span> -->
+                <button type="button" data-ui="refresh">Refresh</button>
+                <button type="button" data-ui="toggle">Toggle Notice</button>
+            </div>
+
+            <p class="subtitle" data-ui="notice">All times are UTC.</p>
+
+            <div class="grid" data-ui="grid">
+                <article class="card" data-ui="card">
+                    <div class="title" data-ui="card.title">Router</div>
+                    <div class="subtitle" data-ui="card.subtitle">IP: 192.168.0.1</div>
+                    <button type="button" data-ui="card.cta">Restart</button>
+                </article>
+                <article class="card" data-ui="card">
+                    <div class="title" data-ui="card.title">NAS</div>
+                    <div class="subtitle" data-ui="card.subtitle">IP: 192.168.0.10</div>
+                    <button type="button" data-ui="card.cta">Restart</button>
+                </article>
+            </div>
+        </section>
+    </body>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./single.js"></script>
+</html>
