@@ -1,4 +1,3 @@
-// components/stay-card.js
 "use strict";
 
 import {
@@ -86,3 +85,4 @@ export function createStayCard(root) {
         refreshRefs,
     };
 }
+
