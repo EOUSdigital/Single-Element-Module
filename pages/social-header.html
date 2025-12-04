@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Social Header</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="shortcut icon" href="data:,">
+    </head>
+    <body>
+        <main id="main">
+            <header class="wrap" data-ui="header">
+                <div data-ui="logo">Social Space</div>
+                <button type="button" data-ui="menu.toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            
+                <nav id="site-nav">
+                    <ul>
+                        <li><a href="#">Feed</a></li>
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Optional UI the header can manage -->
+                <span class="badge hidden" data-ui="promo" aria-hidden="true">New!</span>
+                <span class="badge" data-ui="count" aria-label="0 unread">0</span>
+            </header>
+            <p class="subtitle"><a href="./index.html">← Back to demo index</a></p>
+        </main>
+        <script type="module" src="../main.js"></script>
+    </body>
+</html>
