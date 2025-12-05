@@ -1,4 +1,5 @@
-# Module 07 — DOM Manipulation (Lesson 04: Single Element)
+#  Module 07 — DOM Manipulation 
+#  Lesson 04: Single Element
 
 A small, multi-page project demonstrating **safe, scoped DOM selection** and **single-element operations**. You’ll see the patterns applied in three demo pages and a shared entry script:
 
@@ -256,3 +257,4 @@ MIT (or your preferred license).
 ## Attributions
 
 This project is part of a learning sequence for **Module 07 — DOM Manipulation** focusing on **Single Element** patterns (fail-fast vs fail-soft selection, scoping, uniqueness, stale-ref guarding, and accessibility sync).
+
